@@ -1,16 +1,16 @@
 <p align="center">
-  <img src="assets/icon.png" width="120" alt="Connect AI Logo" />
+  <img src="assets/icon.png" width="120" alt="Hello AI Logo" />
 </p>
 
-<h1 align="center">Connect AI v2 (P-Reinforce)</h1>
+<h1 align="center">Hello AI (나만의 1인 기업 에이전트)</h1>
 
 <p align="center">
   <strong>100% Local · 100% Offline · Autonomous Knowledge Engine</strong><br/>
-  VS Code / Cursor 확장 프로그램으로, 당신의 낡은 IDE를 최상위 에이전트 대학(A.U)의 심장으로 진화시킵니다.
+  hello(hellolkh)님의 비즈니스를 돕는 최상위 1인 기업 자율 에이전트입니다.
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/version-2.1.30-blue" alt="version" />
+  <img src="https://img.shields.io/badge/version-1.0.0-blue" alt="version" />
   <img src="https://img.shields.io/badge/license-MIT-green" alt="license" />
   <img src="https://img.shields.io/badge/integration-Agent_University-purple" alt="integration" />
   <img src="https://img.shields.io/badge/engine-Ollama%20%7C%20LM%20Studio-orange" alt="engine" />
@@ -20,7 +20,7 @@
 
 ## 🌟 Overview: The P-Reinforce Architecture
 
-Connect AI v2.1.30은 단순한 코딩 에이전트를 넘어섭니다. **P-Reinforce 아키텍처**를 기반으로 설계된 이 에이전트는 사용자의 모든 정보와 지시를 받아들여 **스스로 의미를 분석하고, 폴더를 생성하고, 마크다운 위키 파일로 정리하여 클라우드에 자동 백업**하는 자율 지식 정원사(Autonomous Gardener)입니다.
+Hello AI는 단순한 코딩 에이전트를 넘어섭니다. **P-Reinforce 아키텍처**를 기반으로 설계된 이 에이전트는 사용자의 모든 정보와 지시를 받아들여 **스스로 의미를 분석하고, 폴더를 생성하고, 마크다운 위키 파일로 정리하여 클라우드에 자동 백업**하는 자율 지식 정원사(Autonomous Gardener)입니다.
 
 ---
 
@@ -59,14 +59,9 @@ Ollama 또는 LM Studio에 설치된 모델을 내부 API(`v1/models`)를 호출
 
 ## 📥 Installation (설치 방법)
 
-### A.U 멤버십 유저 (Recommended)
-1. 상단 탭의 [Releases](https://github.com/wonseokjung/connect-ai/releases) 메뉴로 진입.
-2. 최신 `v2.1.30.vsix` 파일을 다운로드.
-3. VS Code 에서 `Cmd+Shift+P` → **Extensions: Install from VSIX** → 다운받은 파일 선택
-
 ### 개발자 빌드 (Build from Source)
 ```bash
-git clone https://github.com/wonseokjung/connect-ai.git
+git clone https://github.com/hellolkh/connect-ai.git
 cd connect-ai
 npm install
 npm run compile
@@ -81,26 +76,27 @@ npx vsce package
 1. [lmstudio.ai](https://lmstudio.ai/) 에서 설치
 2. Gemma 3, Llama 3 또는 Qwen Coder 등 원하는 모델 로드
 3. **Developer 탭(좌측 `<>` 메뉴)** 진입 후 **Start Server** 클릭
-4. Connect AI의 ⚙️ 채팅방 설정에서 엔진을 "LM Studio"로 선택 (자동 모델 인덱싱 완료)
+4. Hello AI의 ⚙️ 채팅방 설정에서 엔진을 "LM Studio"로 선택 (자동 모델 인덱싱 완료)
 
 ### ✅ Ollama (Mac, Linux)
 ```bash
 brew install ollama
 ollama pull gemma3   # 원하는 모델 풀링
 ```
-Connect AI에서 설정만 "Ollama"로 바꿔주시면 끝납니다.
+Hello AI에서 설정만 "Ollama"로 바꿔주시면 끝납니다.
 
 ---
 
 ## 🔒 Privacy (완벽한 보안)
 
-- **Zero Cloud API:** 당신의 코드는 외부 클라우드 통신망을 타지 않습니다.
+- **Zero Cloud 무결성:** 당신의 코드는 외부 클라우드 통신망을 타지 않습니다.
 - **Zero Telemetry:** 모든 연산력은 100% Local Inference 환경에서 이루어집니다.
 - 기업 보안 등급에 준하는 극강의 밀폐형 로컬 지식망 생성을 보장합니다.
 
 ---
 
 <p align="center">
-  <strong>Built for Antigravity & Agent University</strong><br/>
-  Designed by <a href="https://github.com/wonseokjung">Jay</a> × Connect AI Architect
+  <strong>Built for AI 1인 기업가</strong><br/>
+  Customized by <a href="https://github.com/hellolkh">hello(hellolkh)</a>
 </p>
+
